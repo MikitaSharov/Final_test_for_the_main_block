@@ -47,3 +47,4 @@ string[] ArrayWithElementsLess3Symbols(string[] baseArray)
 Console.WriteLine(string.Join(", ", userArray));
 string[] newArray = ArrayWithElementsLess3Symbols(userArray);
 Console.WriteLine(string.Join(", ", newArray));
+if (newArray.Length == 0) Console.WriteLine("элеметов нет");
